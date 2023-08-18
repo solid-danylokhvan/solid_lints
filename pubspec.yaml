@@ -10,10 +10,4 @@ environment:
 
 dependencies:
   # 5.7.6 has proprietary license so we will not use it
-  dart_code_metrics: '>=5.7.3 <=5.7.5'
-
-dependency_overrides:
-  watcher:
-    git:
-      url: https://github.com/dart-lang/watcher.git
-      ref: master
+  dart_code_metrics: 5.7.5
